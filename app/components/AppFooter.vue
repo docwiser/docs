@@ -20,4 +20,5 @@ const { footer } = useAppConfig()
       </template>
     </template>
   </UFooter>
+<NuxtRootAnnouncer />
 </template>
