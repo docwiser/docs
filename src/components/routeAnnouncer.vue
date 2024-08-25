@@ -20,5 +20,4 @@ message.value = getMessageFromPath(newValue);
 </script>
 <template>
 <p role="alert" aria-live="assertive" aria-atomic="true">{{ message }}</p>
-<div>{{router}}</div>
 </template>
