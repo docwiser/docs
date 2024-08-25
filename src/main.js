@@ -1,0 +1,13 @@
+import './assets/main.css';
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import appConfig from '../app.config.js';
+import Metadata from './components/meta.vue';
+import Code from './components/code.vue';
+const app = createApp(App);
+app.use(router);
+app.provide('appConfig', appConfig);
+app.component('Metadata', Metadata);
+app.component('Code', Code);
+app.mount('#app');

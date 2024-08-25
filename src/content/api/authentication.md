@@ -1,0 +1,3 @@
+we provide authentication to perform tasks under your supervision
+
+remaining docs coming soon...

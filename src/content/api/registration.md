@@ -1,0 +1,3 @@
+you can register for an account to get your API key ready with instant $5 to try our platform
+
+remaining docs coming soon...
